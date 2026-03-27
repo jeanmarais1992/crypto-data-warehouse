@@ -1,13 +1,80 @@
+# -----------------------
 # Python
+# -----------------------
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
+# -----------------------
 # Virtual environments
+# -----------------------
 venv/
 .env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
 
+# -----------------------
 # Data files
+# -----------------------
 data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.parquet
 
-# Jupyter
+# -----------------------
+# Jupyter Notebook
+# -----------------------
 .ipynb_checkpoints/
+*.ipynb
+
+# -----------------------
+# Byte-compiled / coverage / testing
+# -----------------------
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+
+# -----------------------
+# Build / distribution
+# -----------------------
+build/
+dist/
+*.egg
+*.egg-info/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# -----------------------
+# IDE / editor files
+# -----------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+.ropeproject
+
+# -----------------------
+# Misc
+# -----------------------
+.ruff_cache/
+.pdm-build/
+marimo/_static/
+marimo/_lsp/
+__marimo__/
